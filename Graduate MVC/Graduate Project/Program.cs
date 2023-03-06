@@ -28,7 +28,9 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Sam}/{action=Index}/{id?}");
 
-
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Profile}/{action=Index}/{id?}");
 /* adding routes here */
 
 app.Run();
