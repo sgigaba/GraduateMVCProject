@@ -29,3 +29,34 @@ C:\Users\samkelog\OneDrive - PaySpace\Desktop\Graduate MVC\Graduate Project\obj\
 C:\Users\samkelog\OneDrive - PaySpace\Desktop\Graduate MVC\Graduate Project\obj\Debug\net6.0\Graduate Project.pdb
 C:\Users\samkelog\OneDrive - PaySpace\Desktop\Graduate MVC\Graduate Project\obj\Debug\net6.0\Graduate Project.genruntimeconfig.cache
 C:\Users\samkelog\OneDrive - PaySpace\Desktop\Graduate MVC\Graduate Project\obj\Debug\net6.0\ref\Graduate Project.dll
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\bin\Debug\net6.0\appsettings.json
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\bin\Debug\net6.0\Graduate Project.staticwebassets.runtime.json
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\bin\Debug\net6.0\Graduate Project.exe
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\bin\Debug\net6.0\Graduate Project.deps.json
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\bin\Debug\net6.0\Graduate Project.runtimeconfig.json
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\bin\Debug\net6.0\Graduate Project.dll
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\bin\Debug\net6.0\Graduate Project.pdb
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\Graduate Project.csproj.AssemblyReference.cache
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\Graduate Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\Graduate Project.AssemblyInfoInputs.cache
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\Graduate Project.AssemblyInfo.cs
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\Graduate Project.csproj.CoreCompileInputs.cache
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\Graduate Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\Graduate Project.RazorAssemblyInfo.cache
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\Graduate Project.RazorAssemblyInfo.cs
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\staticwebassets\msbuild.Graduate Project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\staticwebassets\msbuild.build.Graduate Project.props
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Graduate Project.props
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Graduate Project.props
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\scopedcss\bundle\Graduate Project.styles.css
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\scopedcss\projectbundle\Graduate Project.bundle.scp.css
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\Graduate Project.dll
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\refint\Graduate Project.dll
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\Graduate Project.pdb
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\Graduate Project.genruntimeconfig.cache
+C:\Users\samkelog\Source\Repos\GraduateMVCProject\Graduate MVC\Graduate Project\obj\Debug\net6.0\ref\Graduate Project.dll
