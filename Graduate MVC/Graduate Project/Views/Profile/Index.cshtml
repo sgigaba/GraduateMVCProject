@@ -7,6 +7,13 @@
 }
 <h1> User Profile Details </h1>
 <br />
+
+<div>
+    <button type="button">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Profile" asp-action="Create">Create a new profile</a>
+    </button>
+
+</div>
 <div>
 
     <table class="table">
@@ -28,7 +35,7 @@
                     @profile.Surname
                 </td>
                 <td>
-                    @profile.DateOfBirth
+                    @profile.DateOfBirth.
                 </td>
                 <td>
                     @profile.Age
@@ -40,7 +47,7 @@
                     @profile.City
                 </td>
 
-                <td> <a class="button">Edit</a></td>
+                <td> <a class="nav-link text-dark" asp-area = "" asp-controller="Profile" asp-action ="Edit">Edit</a></td>
             </tr>
         }
     </table>
