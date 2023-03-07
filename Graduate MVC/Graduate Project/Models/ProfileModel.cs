@@ -1,4 +1,7 @@
-﻿namespace Graduate_Project.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Graduate_Project.Models
 {
     public class ProfileModel
     {
