@@ -2,6 +2,7 @@
 using Graduate_Project.Models;
 using Graduate_Project.ViewModels;
 using Microsoft.Identity.Client;
+using Microsoft.EntityFrameworkCore;
 
 namespace Graduate_Project.Controllers
 {
@@ -9,21 +10,23 @@ namespace Graduate_Project.Controllers
     {
 
         private readonly ApplicationDbContext _dbContext;
+  
         public ProfileController(ApplicationDbContext dbContext)
         {
             _dbContext = dbContext;
 
         }
-        public IActionResult Index()
+
+        public async Task<IActionResult> Index()
         {
-            
+
             ProfileModel profile = new ProfileModel()
             {
-                Name = "Samkelo",
+              /*Name = "Samkelo",
                 Surname = "Gigaba",
                 Age = 22,
                 Country = "South Africa",
-                City = "Johannesburg"
+                City = "Johannesburg"*/
 
             };
 
@@ -31,8 +34,10 @@ namespace Graduate_Project.Controllers
             {
                 Profile = profile
             };
+            var profiles = await _dbContext.Profile.ToListAsync();
 
-            return View(profileViewModel);
+
+            return View(profiles);
         }
     }
 }

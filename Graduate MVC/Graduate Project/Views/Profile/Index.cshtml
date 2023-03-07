@@ -1,5 +1,4 @@
-﻿@using Graduate_Project.Controllers
-@model Graduate_Project.ViewModels.ProfileViewModel
+﻿@model IEnumerable<ProfileModel> 
 
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -9,16 +8,56 @@
 <h1> User Profile Details </h1>
 <br />
 <div>
-    <h2> Name </h2>
-        <div> @Model.Profile.Name </div>
+
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Date of Birth</th>
+            <th>Age</th>
+            <th>Country</th>
+            <th>City</th>
+        </tr>
+        @foreach (var profile in Model)
+        {
+            <tr>
+                <td>
+                    @profile.Name
+                </td>
+                <td>
+                    @profile.Surname
+                </td>
+                <td>
+                    @profile.DateOfBirth
+                </td>
+                <td>
+                    @profile.Age
+                </td>
+                <td>
+                    @profile.Country
+                </td>
+                <td>
+                    @profile.City
+                </td>
+
+                <td> <a class="button">Edit</a></td>
+            </tr>
+        }
+    </table>
+
+
+@*    <h2> Name </h2>
+    <div> @Model.Profile.Name </div>
     <h2> Surname </h2>
-        <div> @Model.Profile.Surname </div>
+    <div> @Model.Profile.Surname </div>
     <h2> Date of Birth </h2>
-        <div> @Model.Profile.DateOfBirth </div>
+    <div> @Model.Profile.DateOfBirth </div>
     <h2> Age </h2>
-        <div> @Model.Profile.Age </div>
+    <div> @Model.Profile.Age </div>
     <h2> Country </h2>
-        <div> @Model.Profile.Country </div>
+    <div> @Model.Profile.Country </div>
     <h2> City </h2>
-        <div> @Model.Profile.City </div>
+    <div> @Model.Profile.City </div>*@
+
+
 </div>
