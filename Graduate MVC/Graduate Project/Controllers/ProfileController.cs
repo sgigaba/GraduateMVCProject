@@ -3,6 +3,7 @@ using Graduate_Project.Models;
 using Graduate_Project.ViewModels;
 using Microsoft.Identity.Client;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace Graduate_Project.Controllers
 {
@@ -17,9 +18,23 @@ namespace Graduate_Project.Controllers
 
         }
 
+        public IActionResult Edit()
+        {
+            return View();
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        public IActionResult Delete()
+        {
+            return View();
+        }
+
         public async Task<IActionResult> Index()
         {
-
             ProfileModel profile = new ProfileModel()
             {
               /*Name = "Samkelo",
@@ -38,6 +53,6 @@ namespace Graduate_Project.Controllers
 
 
             return View(profiles);
-        }
+            }
     }
 }
