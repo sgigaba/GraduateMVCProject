@@ -23,11 +23,35 @@ namespace Graduate_Project.Controllers
             return View();
         }
 
-        public IActionResult Create()
+/*        public ActionResult CreateForm(String Name)
         {
-            return View();
+
+            ProfileModel profile = new ProfileModel();
+            profile.Name = Name;
+
+            return View(profile);
+
+        }*/
+        public ActionResult CreateForm(String Name,String Surname, DateTime DateOfBirth, int Age, String Country, String City)
+        {
+            ProfileModel profile = new ProfileModel()
+            {
+                Name = Name,
+                Surname = Surname,
+                DateOfBirth = DateOfBirth,
+                Age = Age,
+                Country = Country,
+                City = City
+            };
+
+           
+         return View(profile);
         }
 
+        public IActionResult Create() {
+        
+            return View();
+        }
         public IActionResult Delete()
         {
             return View();
