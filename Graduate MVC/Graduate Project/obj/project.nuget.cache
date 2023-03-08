@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GidoHdFCwGKAVCe/pRnp/ehtr/Vw79FwQDN27Ixjh5sG/x9hbqWV/AsgKilKQf342M2xqa1Euk5TkCdga++yLQ==",
+  "dgSpecHash": "Sb/Vwym+mtX/r7RVC/pUYC2aLKZ3ZxxDX0wXObgXbl9h/yM62mqs9uXuqHTNdbWYikE11dhZ46eTZxtzE0RYXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\samkelog\\Source\\Repos\\GraduateMVCProject\\Graduate MVC\\Graduate Project\\Graduate Project.csproj",
+  "projectFilePath": "C:\\Users\\samkelog\\Source\\Repos\\sgigaba\\GraduateMVCProject\\Graduate MVC\\Graduate Project\\Graduate Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samkelog\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\samkelog\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

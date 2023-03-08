@@ -3273,11 +3273,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samkelog\\Source\\Repos\\GraduateMVCProject\\Graduate MVC\\Graduate Project\\Graduate Project.csproj",
+      "projectUniqueName": "C:\\Users\\samkelog\\Source\\Repos\\sgigaba\\GraduateMVCProject\\Graduate MVC\\Graduate Project\\Graduate Project.csproj",
       "projectName": "Graduate Project",
-      "projectPath": "C:\\Users\\samkelog\\Source\\Repos\\GraduateMVCProject\\Graduate MVC\\Graduate Project\\Graduate Project.csproj",
+      "projectPath": "C:\\Users\\samkelog\\Source\\Repos\\sgigaba\\GraduateMVCProject\\Graduate MVC\\Graduate Project\\Graduate Project.csproj",
       "packagesPath": "C:\\Users\\samkelog\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samkelog\\Source\\Repos\\GraduateMVCProject\\Graduate MVC\\Graduate Project\\obj\\",
+      "outputPath": "C:\\Users\\samkelog\\Source\\Repos\\sgigaba\\GraduateMVCProject\\Graduate MVC\\Graduate Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\samkelog\\AppData\\Roaming\\NuGet\\NuGet.Config",
