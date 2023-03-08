@@ -18,21 +18,24 @@ namespace Graduate_Project.Controllers
 
         }
 
-        public IActionResult Edit()
-        {
-            return View();
-        }
+       public ActionResult Edit(int ID)
+       {
+            ProfileModel profiles = _dbContext.Profile.Find(ID);
+            return View(profiles);
+       }
 
-/*        public ActionResult CreateForm(String Name)
+        [HttpPost]
+        public ActionResult Edit(ProfileModel profile)
         {
 
-            ProfileModel profile = new ProfileModel();
-            profile.Name = Name;
+             _dbContext.Update(profile);
+             _dbContext.SaveChanges();
 
             return View(profile);
+        }
 
-        }*/
-        public ActionResult CreateForm(String Name,String Surname, DateTime DateOfBirth, int Age, String Country, String City)
+        [HttpPost]
+        public ActionResult Create(String Name,String Surname, DateTime DateOfBirth, int Age, String Country, String City)
         {
             ProfileModel profile = new ProfileModel()
             {
@@ -44,17 +47,32 @@ namespace Graduate_Project.Controllers
                 City = City
             };
 
-           
-         return View(profile);
+            _dbContext.Add(profile);
+            _dbContext.SaveChanges();
+            return View("Create");
+
         }
 
         public IActionResult Create() {
         
             return View();
         }
-        public IActionResult Delete()
+        public IActionResult Delete(int ID)
         {
-            return View();
+            ProfileModel profiles = _dbContext.Profile.Find(ID);
+            return View(profiles);
+ 
+        }
+
+        [HttpPost]
+        public ActionResult Delete(ProfileModel profile)
+        {
+            ProfileModel profiles = _dbContext.Profile.Find(profile.ID);
+            _dbContext.Remove(profiles);
+            _dbContext.SaveChanges();
+
+            return RedirectToAction("Index");
+
         }
 
         public async Task<IActionResult> Index()

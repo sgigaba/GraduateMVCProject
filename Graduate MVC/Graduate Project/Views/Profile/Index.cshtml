@@ -14,9 +14,9 @@
     </button>
 
 </div>
-<div>
 
-    <table class="table">
+
+   <table class="table">
         <tr>
             <th>Name</th>
             <th>Surname</th>
@@ -47,24 +47,9 @@
                     @profile.City
                 </td>
 
-                <td> <a class="nav-link text-dark" asp-area = "" asp-controller="Profile" asp-action ="Edit">Edit</a></td>
+                <td> @Html.ActionLink("Edit","Edit", new {id=profile.ID})</td>
+                <td> @Html.ActionLink("Delete","Delete", new {id=profile.ID})</td>
             </tr>
         }
     </table>
 
-
-@*    <h2> Name </h2>
-    <div> @Model.Profile.Name </div>
-    <h2> Surname </h2>
-    <div> @Model.Profile.Surname </div>
-    <h2> Date of Birth </h2>
-    <div> @Model.Profile.DateOfBirth </div>
-    <h2> Age </h2>
-    <div> @Model.Profile.Age </div>
-    <h2> Country </h2>
-    <div> @Model.Profile.Country </div>
-    <h2> City </h2>
-    <div> @Model.Profile.City </div>*@
-
-
-</div>
