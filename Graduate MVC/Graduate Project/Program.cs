@@ -42,6 +42,9 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "edit",
     pattern: "{controller=Profile}/{action=Edit}/{id?}");
+
+
+
 /* adding routes here */
 
 app.Run();

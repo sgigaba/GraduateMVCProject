@@ -18,21 +18,27 @@ namespace Graduate_Project.Controllers
 
         }
 
-        public IActionResult Edit()
+       public ActionResult Edit()
         {
             return View();
         }
 
-/*        public ActionResult CreateForm(String Name)
+        [HttpPost]
+        public ActionResult Edit([Bind("ID,Name,Surname,DateOfBirth,Age,Country,City")] ProfileModel profile)
         {
 
-            ProfileModel profile = new ProfileModel();
-            profile.Name = Name;
+            if (ModelState.IsValid)
+            {
 
-            return View(profile);
+                _dbContext.Entry(profile).State = EntityState.Modified;
+                _dbContext.SaveChanges();
+            }
 
-        }*/
-        public ActionResult CreateForm(String Name,String Surname, DateTime DateOfBirth, int Age, String Country, String City)
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Create(String Name,String Surname, DateTime DateOfBirth, int Age, String Country, String City)
         {
             ProfileModel profile = new ProfileModel()
             {
@@ -44,8 +50,10 @@ namespace Graduate_Project.Controllers
                 City = City
             };
 
-           
-         return View(profile);
+            _dbContext.Add(profile);
+            _dbContext.SaveChanges();
+            return View("Create");
+
         }
 
         public IActionResult Create() {
