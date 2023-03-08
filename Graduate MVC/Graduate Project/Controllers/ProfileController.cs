@@ -18,23 +18,20 @@ namespace Graduate_Project.Controllers
 
         }
 
-       public ActionResult Edit()
-        {
-            return View();
-        }
+       public ActionResult Edit(int ID)
+       {
+            ProfileModel profiles = _dbContext.Profile.Find(ID);
+            return View(profiles);
+       }
 
         [HttpPost]
-        public ActionResult Edit([Bind("ID,Name,Surname,DateOfBirth,Age,Country,City")] ProfileModel profile)
+        public ActionResult Edit(ProfileModel profile)
         {
 
-            if (ModelState.IsValid)
-            {
+             _dbContext.Update(profile);
+             _dbContext.SaveChanges();
 
-                _dbContext.Entry(profile).State = EntityState.Modified;
-                _dbContext.SaveChanges();
-            }
-
-            return View();
+            return View(profile);
         }
 
         [HttpPost]
@@ -60,9 +57,22 @@ namespace Graduate_Project.Controllers
         
             return View();
         }
-        public IActionResult Delete()
+        public IActionResult Delete(int ID)
         {
-            return View();
+            ProfileModel profiles = _dbContext.Profile.Find(ID);
+            return View(profiles);
+ 
+        }
+
+        [HttpPost]
+        public ActionResult Delete(ProfileModel profile)
+        {
+            ProfileModel profiles = _dbContext.Profile.Find(profile.ID);
+            _dbContext.Remove(profiles);
+            _dbContext.SaveChanges();
+
+            return RedirectToAction("Index");
+
         }
 
         public async Task<IActionResult> Index()
